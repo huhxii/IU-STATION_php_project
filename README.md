@@ -14,4 +14,4 @@ Creating a e-book website using HTML, CSS, PHP and MySQL.
 | Github | https://github.com/huhxii/IU-STATION_php_project |
 
 ## Periods of Development
-2023-01-12(Thu) ~ 2023-01-16(Mon)
+2023-01-11(Wed) ~ 2023-01-18(Wed)
