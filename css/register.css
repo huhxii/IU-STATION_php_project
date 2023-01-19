@@ -1,0 +1,21 @@
+/* 메인 콘텐트 */
+#register_content { position: relative; width: 1000px; height: 800px; margin: 0 auto; padding-top: 100px; }
+
+/* 가입 양식 폼 */
+#register_box {	width: 600px; margin: 0 auto; font-size: 20px; }
+#register_box div {	padding-top: 5px; margin-bottom: 30px; }
+#register_box h2 { color: #E4E724; border-bottom: solid 1px #dddddd; padding-top: 50px; padding-bottom: 20px; margin-bottom: 20px; }
+#register_box .col1 { color: whitesmoke; float: left;	width: 120px; margin-top: 4px; }
+#register_box .col2 { color: whitesmoke; float: left;	width: 300px; }
+#register_box .col3 { color: whitesmoke; float: left; transform: translateX(-10px); }
+#register_box .col3 a { color: black;}
+#register_box .col3 a:hover { color: gray;}
+#register_box .form { height: 38px; }
+#register_box .id {	margin-top: 20px; }
+#register_box input { width: 350px; height: 22px; }
+#register_box input[name=id] { width: 250px; }
+#register_box .bottom_line { margin-top: 10px;	border-bottom: solid 1px #cccccc; }
+#register_box button { padding: 3px 6px 3px 6px; }
+#register_box button:hover { color: gray; }
+#register_box .buttons { text-align: right;	margin: 20px 100px 0 0; }
+.form_button { padding: 10px 15px 10px 15px; display: flex; flex-direction: row; justify-content: space-around; }

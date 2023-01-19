@@ -1,0 +1,16 @@
+#login_container { width: 1200px; height: 440px; margin: 0 auto; margin-top: 100px; margin-bottom: 100px; display: flex; flex-direction: row; justify-content: space-around; align-items: center; }
+#login_logo { animation: moving_right 3s ease 0.1s forwards alternate; }
+#login_box { width: 650px; animation: moving_left 3s ease 0.1s forwards alternate; }
+#login_title { padding-bottom: 10px; border-bottom: solid 2px #c9b2df; }
+#login_title { font-size: 20px; white-space: nowrap; color: rgb(255, 255, 255); }
+#login_form form { margin-top: 20px; display: flex; flex-direction: row; justify-content: space-around; }
+#login_input { width: 380px; margin-left: 20px;}
+#login_input li { margin-top: 10px; }
+#login_input li p { margin: 0; padding: 0; color: red; font-size: 15px; visibility: hidden; }
+#login_input input { width: 100%; height: 35px; }
+#login_password { visibility: hidden; transition: 0.5s; }
+#login_button { margin-top: 20px; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+#login_button a { padding-bottom: 37px; }
+#login_password_button { margin-top: 8px; visibility: hidden; transition: 0.5s; }
+@keyframes moving_right { 0% {transform: translateX(-50px);} 20% {transform: translateX(20px);} 70% {transform: translateX(0);} }
+@keyframes moving_left { 0% {transform: translateX(50px);} 20% {transform: translateX(-20px);} 70% {transform: translateX(0);} }

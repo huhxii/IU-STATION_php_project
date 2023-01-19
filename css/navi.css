@@ -1,0 +1,9 @@
+#menu_bar { padding: 30px; color: white; }
+#menu_title ul { display: flex; flex-direction: row; justify-content: space-around; }
+#menu_sub { display: flex; flex-direction: row; justify-content: space-around; visibility: hidden; transition: 1s; }
+.menu_title { width: 100px; height: 40px; }
+.menu_title li { font-size: 25px; }
+.menu_title li:hover { font-weight: bold; }
+.menu_sub { width: 100px; height: 30px; }
+.menu_sub li { font-size: 20px; margin-bottom: 7px; }
+.menu_sub li:hover { font-weight: bold; }

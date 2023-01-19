@@ -1,0 +1,69 @@
+/* 색지정 */
+:root { --font-color: rgb(200, 200, 200); --iu-color: #E4E724; --uaena-color: #c9b2df; }
+/* 마진 패딩 초기화 */
+* { padding: 0; margin: 0; }
+/* 페이지 기본 글꼴과 크기 설정 */
+body { font-family: 'Roboto', sans-serif; font-size: 14px; background-color: black; }
+img { border: 0;}
+ul { list-style-type: none; }
+/* <a> 태그 기본 설정 */
+a { display: inline-block; text-decoration: none; }
+a:link { text-decoration:none; color: var(--font-color); }
+a:hover { text-decoration:none; color: var(--font-color); }
+a:visited { text-decoration:none; color: var(--font-color); }
+a:active { text-decoration:none; color: var(--font-color); }
+/* 상단 헤더 */
+#top { width: 1400px; height: 60px; margin: 0 auto; padding: 30px; display: flex; flex-direction: row; justify-content: space-around; align-items: center;}
+#top h1 a { color: var(--iu-color); font-size: 30px; }
+#top h4 { font-size: 40px; color: black; font-weight: bolder; overflow: hidden; }
+#top_1 { animation: color_change 3s ease 0.1s forwards alternate; }
+#top_2 { animation: color_change 3s ease 0.4s forwards alternate; }
+#top_3 { animation: color_change 3s ease 0.7s forwards alternate; }
+#top_4 { animation: color_change 3s ease 1.0s forwards alternate; }
+#top_5 { animation: color_change 3s ease 1.4s forwards alternate; }
+#top_6 { animation: color_change 3s ease 2.0s forwards alternate; }
+#top_7 { animation: color_change 3s ease 2.6s forwards alternate; }
+#top_8 { animation: color_change 3s ease 3.2s forwards alternate; }
+#top_9 { animation: color_change 3s ease 3.5s forwards alternate; }
+#top_10 { animation: color_change 3s ease 4.1s forwards alternate; }
+@keyframes color_change { 0% { opacity: 0; } 100% { color: rgb(255, 153, 0); visibility: visible; opacity: 1; } }
+#top #top_menu { display: flex; flex-direction: row; align-items: center; color: var(--font-color); font-size: 14px;}
+/* 바디 */
+body { height: auto; min-height: 100%; padding-bottom: 30px; }
+#background { min-width: 600px; height: 400px; margin: 0 auto; padding-top: 50px; padding-bottom: 30px; border-top: 1px solid rgb(255, 166, 0); border-bottom: 1px solid orangered; background-image: url(../img/back.jpg); background-attachment: fixed; }
+#background a { font-size: 50px; font-weight: 600; position: relative; top: 30%; left: 60%;}
+/* 홈 디자인 */
+#design_container { width: 1600px; height: 620px; margin: 0 auto; margin-top: 200px; margin-bottom: 200px; display: flex; flex-direction: row; justify-content: space-around; }
+#design_circle1 { width: 500px; height: 500px; border: 1px solid whitesmoke; border-radius: 500px; background-image: url(../img/photo.png);}
+#design_circle1 p { font-size: 50px; font-weight: bolder; color: rgb(145, 18, 204); text-align: center; line-height: 700px; }
+#design_circle2 { width: 500px; height: 500px; border: 1px solid whitesmoke; border-radius: 500px; background-image: url(../img/goods.png);}
+#design_circle2 p { font-size: 50px; font-weight: bolder; color: rgb(34, 224, 167); text-align: center; line-height: 700px; }
+#design_circle3 { width: 500px; height: 500px; border: 1px solid whitesmoke; border-radius: 500px; background-image: url(../img/app.jpg);}
+#design_circle3 p { font-size: 50px; font-weight: bolder; color: rgb(216, 49, 118); text-align: center; line-height: 700px; }
+#design_circle1:hover { transform: scale(1.1); transition: 1s; }
+#design_circle2:hover { transform: scale(1.1); transition: 1s; }
+#design_circle3:hover { transform: scale(1.1); transition: 1s; }
+/* 네비 */
+#menu_bar { padding: 30px; color: white; }
+#menu_title ul { width: 1400px; margin: 0 auto; display: flex; flex-direction: row; justify-content: space-around; }
+#menu_sub { width: 1400px; margin: 0 auto; display: flex; flex-direction: row; justify-content: space-around; visibility: hidden; transition: 1s; }
+.menu_title { width: 100px; height: 40px; }
+.menu_title li { font-size: 25px; }
+.menu_title li:hover { font-weight: bold; }
+.menu_sub { width: 100px; height: 30px; }
+.menu_sub li { font-size: 20px; margin-bottom: 7px; }
+.menu_sub li:hover { font-weight: bold; }
+/* 하단 푸터 */
+footer { width: 600px; height: 30px; position: fixed; bottom: 50px; left: 80px; margin: 0 auto; margin-top: 200px;}
+#footer_content { color: var(--font-color); display: flex; flex-direction: column; justify-content: center; }
+#footer_logo { font-size: 16px; }
+#footer_logo span { color: var(--iu-color); }
+#footer_author { padding-top: 10px;}
+/* 댓글 */
+#ripple { width: 90%; margin: 0 auto;}
+#ripple1 { color:whitesmoke; padding-top: 10px; margin-bottom: 10px; }
+#ripple_button { padding: 5px 10px; cursor: pointer; }
+#ripple_button button { padding: 5px 10px; }
+#ripple_textarea { margin-top: 20px;}
+#ripple_title li { color: whitesmoke;}
+#mdi_del { margin-top: 10px;}

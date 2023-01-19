@@ -1,0 +1,20 @@
+#main_container { min-width: 600px; height: 800px; margin: 0 auto; display: flex; flex-direction: column; justify-content: center; animation: moving_up 3s ease 0.1s forwards alternate; }
+#main_title { text-align: center; margin-top: 100px; margin-bottom: 100px; }
+#main_title h4 { color: whitesmoke; font-size: 80px; animation: moving_down 3s ease 0.1s forwards alternate; }
+#main_sub1 { text-align: center; margin-bottom: 20px;}
+#main_sub1 h5 { color: whitesmoke; font-weight: 200; font-size: 40px;}
+#main_sub1 h5 span { color: #E4E724; font-weight: 200; font-size: 40px;}
+#main_sub2 { text-align: center; margin-bottom: 20px;}
+#main_sub2 h5 { color: whitesmoke; font-weight: 200; font-size: 40px;}
+#main_sub2 h5 span { color: rgb(233, 160, 24); font-weight: 200; font-size: 40px;}
+#main_sub3 { text-align: center; margin-bottom: 20px;}
+#main_sub3 h5 { color: whitesmoke; font-weight: 200; font-size: 40px;}
+#main_sub3 h5 span { color: rgb(102, 168, 194); font-weight: 200; font-size: 40px;}
+#main_sub4 { text-align: center;  margin-top: 50px; margin-bottom: 20px;}
+#main_sub4 h5 { color: whitesmoke; font-weight: 200; font-size: 40px;}
+#main_sub4 h5 span { color: rgb(241, 109, 109); font-weight: 200; font-size: 40px;}
+#main_sub5 { text-align: center; margin-bottom: 100px;}
+#main_sub5 h5 { color: whitesmoke; font-weight: 200; font-size: 40px;}
+#main_sub5 h5 span { color: rgb(168, 214, 77); font-weight: 200; font-size: 40px;}
+@keyframes moving_down { 0% {transform: translateY(-50px);} 20% {transform: translateY(20px);} 70% {transform: translateY(0);} }
+@keyframes moving_up { 0% {transform: translateY(50px);} 20% {transform: translateY(-20px);} 70% {transform: translateY(0);} }

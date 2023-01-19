@@ -1,0 +1,34 @@
+#forum_box { position: relative; width: 800px; height: 600px; margin: 0 auto; padding-top: 60px;}
+#forum_box h3 { color: whitesmoke; margin-top: 30px;	padding: 10px; border-bottom: solid 2px #516e7f; font-size: 20px; }
+#forum_form span { display: inline-block; }
+#forum_form .col1 { width: 150px; }
+#forum_form ul { float: left;}
+#forum_form li { color: whitesmoke; padding: 12px; border-bottom: solid 1px #dddddd; }
+#forum_form input:not( [type=checkbox]):not([type=file]){ width: 500px; height: 25px; }
+#forum_form textarea { width: 500px;	height: 150px; }
+#forum_form #text_area { position: relative;	height: 158px; }
+#forum_form #text_area .col1 { position: absolute; top: 10px; }
+#forum_form #text_area .col2 { position: absolute; left: 166px; }
+#forum_box .buttons { color: whitesmoke; text-align: right; margin: 20px 0 40px 0; }
+#forum_box .buttons li { display: inline; }
+#forum_box .buttons button { padding: 5px 10px; cursor: pointer; }
+#forum_box .buttons form { display: inline-block; }
+
+#forum_list li { color: whitesmoke; padding: 10px 0; border-bottom: solid 1px #dddddd; display: inline-block }
+#forum_list span { display: inline-block; text-align: center;}
+#forum_list .col1 { width: 80px; }
+#forum_list .col2 { width: 320px; text-align: left; }
+#forum_list .col3 { width: 100px; }
+#forum_list .col4 { width: 60px; }
+#forum_list .col5 { width: 160px; }
+#forum_list .col6 { width: 40px; padding-right: 15px; }
+#page_num {	text-align: center;	margin: 30px 0 }
+#page_num li { display: inline; }
+
+#forum_box { width: 800px; margin: 0 auto; }
+#forum_box .title { margin-top: 30px; padding: 10px; border-bottom: solid 2px #516e7f; font-size: 20px; }
+#view_content li:nth-child(1) {	color: whitesmoke; padding: 15px; border-bottom: solid 1px #aaaaaa; }
+#view_content .col1 { color: whitesmoke; }
+#view_content .col2 { float: right; }
+#view_content li:nth-child(2) {	color: whitesmoke; padding: 15px 15px 80px 15px; border-bottom: solid 1px #cccccc; }
+#view_content li:nth-child(3) button { color: whitesmoke; padding: 5px 20px; margin: 15px 0 40px 720px; cursor: pointer; }

@@ -1,0 +1,35 @@
+#goods_box { position: relative; width: 800px; height: 600px; margin: 0 auto; padding-top: 60px;}
+#goods_box h3 { color: whitesmoke; margin-top: 30px; padding: 10px; border-bottom: solid 2px #9419c5; font-size: 20px; }
+#goods_form span { display: inline-block; }
+#goods_form .col1 { color: whitesmoke; width: 150px; }
+#goods_form .col2 { color: whitesmoke; }
+#goods_form ul { float: left;}
+#goods_form li { padding: 12px; border-bottom: solid 1px #dddddd; }
+#goods_form input:not([type=checkbox]):not([type=file]){ width: 500px; height: 25px; }
+#goods_form textarea { width: 500px;	height: 150px; }
+#goods_form #text_area {	position: relative;	height: 158px; }
+#goods_form #text_area .col1 { position: absolute; top: 10px; }
+#goods_form #text_area .col2 { position: absolute; left: 166px; }
+#goods_box .buttons { text-align: right; margin: 20px 0 40px 0; }
+#goods_box .buttons li { display: inline; }
+#goods_box .buttons button { padding: 5px 10px; cursor: pointer; }
+#goods_box .buttons form { display: inline-block; }
+
+#goods_list li { padding: 10px 0; border-bottom: solid 1px #e0548f; display: flex; flex-direction: row; justify-content: space-around;}
+#goods_list span { color: whitesmoke; display: inline-block; text-align: center;}
+#goods_list .col1 { width: 80px; }
+#goods_list .col2 { width: 330px; text-align: left; }
+#goods_list .col3 { width: 100px; }
+#goods_list .col4 { width: 40px; }
+#goods_list .col5 { width: 180px; }
+#goods_list .col6 { width: 40px; }
+#page_num {	text-align: center;	margin: 30px 0 }
+#page_num li { color: whitesmoke; display: inline; }
+
+#goods_box { width: 800px; margin: 0 auto; }
+#goods_box .title { margin-top: 30px; padding: 10px; border-bottom: solid 2px #516e7f; font-size: 20px; }
+#view_content li:nth-child(1) {	color: whitesmoke; padding: 15px; border-bottom: solid 1px #aaaaaa; }
+#view_content .col2 { float: right; }
+#view_content li:nth-child(2) {	color: whitesmoke; padding: 15px 15px 80px 15px; border-bottom: solid 1px #cccccc; }
+#view_content li:nth-child(3) button { color: whitesmoke; padding: 5px 20px; margin: 15px 0 40px 720px; cursor: pointer; }
+
